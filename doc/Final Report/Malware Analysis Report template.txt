@@ -1,0 +1,44 @@
+Title:
+Investigator:
+Date:
+
+1. Executive Summary
+
+2. Identification
+	2.1 Filename, File size, File type
+	2.2 MAC timestamps
+	2.3 Hashes (md5, sha1, sha256, fuzzy)
+	2.4 Signing Information (Certificates)
+	2.5 TrID - Packer info
+	2.6 Aliases
+
+3. Capabilities
+
+4. Dependencies
+
+5. Static Analysis
+	5.1 Top level components
+	5.2 Execution points of entry
+	5.3 Embedded strings
+	5.4 Code related observations (Reflection, Obfuscation, Encryption, Native code, etc)
+	5.5 File contents
+		5.5.1 package contents
+		5.5.2 files created/deployed on the system
+
+6. Dynamic Analysis
+	6.1 Network traffic analysis
+		6.1.1 DNS Queries
+		6.1.2 HTTP Conversations
+		6.1.3 TCP/UDP communication
+	6.2 File operations (files read and written)
+	6.3 Services/Processes started
+	6.4 Data leaked
+
+7. Supporting Data
+	7.1 Log files
+	7.2 Network traces
+	7.3 Screenshots
+	7.4 Other data (database dumps, config files, etc)
+
+8. Conclusion
+
